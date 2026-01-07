@@ -12,26 +12,26 @@
 
 
 class StringBuilder{
-  #initialValue
+  #Value
 
   constructor(initialValue){
-    this.#initialValue = initialValue;
+    this.#Value = initialValue;
   }
 
   getValue(){
-    return this.#initialValue;
+    return this.#Value;
   }
 
   padEnd(str){
-    this.#initialValue += str;;
+    this.#Value += str;;
   }
 
   padStart(str){
-    this.#initialValue = str + this.#initialValue
+    this.#Value = str + this.#Value
   }
 
   padBoth(str){
-    this.#initialValue = str + this.#initialValue + str;
+    this.#Value = str + this.#Value + str;
   }
 }
 
